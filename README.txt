@@ -41,3 +41,12 @@ SLOVENSKY:
 - detekciu krajiny som spravil podľa Geo IP kde je momentálne návštevník pripojený, nie podľa jazyka prehliadača, ani zvoleného na webstránke, pretože tak bola požiadavka: "zákazník, ktorý príde z HK, TW, CN, MO"
 
 
+------------------------------------------------
+
+### Screeny
+
+#### Zobrazenie na stránke:
+![Appearance on page](/docs/screen_frontpage.jpg "Appearance on page")
+
+#### Nastavenia modulu:
+![Backoffice module settings](/docs/screen_settings.jpg "Module settings")
