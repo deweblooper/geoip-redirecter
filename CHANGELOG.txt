@@ -1,0 +1,23 @@
+
+1.2.0
+-----
+- added: full localization support
+- added: EN and SK language
+- added: fix for update version number view on Settings page
+
+
+1.1.0
+-----
+- added: Set where will plugin be active: homepage only or on each page of website
+- added: IP override - Add IP address, one or more (coma separated) to exclude from redirecting
+- added: Manual redirect - New line with "yes/no" question will appear in strip block, if this field is filled
+- added: js file 'geoip-redirecter.js' with custom functions
+- design: improved Settings page
+
+1.0.0
+-----
+- filter which countries to redirect - one or more (coma separated)
+- set up one common redirection url
+- set up timeout - how long will visitor stay on page before redirection, or set zero (0) for no automatic redirection
+- add your custom notification text, new url link to redirect will be added automatically to end of line
+- uses external Geo IP database from http://www.geoplugin.net to identify country

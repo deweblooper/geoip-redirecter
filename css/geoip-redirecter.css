@@ -1,0 +1,57 @@
+
+.geoip-redirecter {
+	width:100%;
+	padding:10px;
+	color:#000;
+	background-color:#ccc0a9;
+	text-align:center;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:100000;
+}
+.geoip-redirecter span,.geoip-redirecter p {
+	font-family: "URW Bodoni W01 Light", Arial, sans-serif;
+	line-height:1.2em;
+	color:#000;
+}
+.geoip-row {
+	font-size:1.1em;
+}
+.geoip-redirecter a {
+	padding-left:5px;
+	color:#fff;
+	text-decoration:underline;
+}
+.geoip-redirecter p {
+	margin:0;
+}
+.geoip-redirecter .geoip-btn {
+	padding:3px 10px 5px;
+	font-size:0.9em;
+	color:#ede7dc;
+	text-decoration:none !important;
+	background-color:#696357;
+	cursor:pointer;
+	cursor:hand;
+	}
+	.geoip-redirecter .geoip-btn:hover {
+		color:#fff;
+		background-color:#c08c5e;
+	}
+.geoip-manual {
+	padding:5px;
+	font-size:1em;
+	color:#696357 !important;
+}
+.geoip-countdown {
+	padding-left:10px;
+	color:#696357 !important;
+}
+.geoip-countdown strong {
+	color:#b3002d !important;
+}
+
+
+
+

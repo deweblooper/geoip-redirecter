@@ -1,0 +1,27 @@
+
+
+
+SLEDOVA:
+---------
+geoip-redirecter\geoip-redirecter.php
+- meni èísla verzie: r.6 a r.18:add_option('geoip_redirecter_version','1.0.0');
+- pozor na kód s // activated for testing only - nevadí, ale v PROFI ASPOÒ ZAKOMENTOVA
+- overovanie IP ide z $geoPlugin
+- inštalovanie pridá rovno vzorové dáta, ale nie všetky, take modul nevykazuje èinnos
+!! zobrazenie na homepage je rozšírené pod¾a Qamare.com ako majú reálne, pre nich funguje len 'is_page( 6 )' - nevadí, 
+	ale v PROFI ASPOÒ ZAKOMENTOVA v podmienke!!
+
+
+
+
+TODO:
+---------
+- spravi multilang pre WPML
+- prida odinštalovanie všetkıch záznamov v DB 'wp_option'
+	su to tie pod /* INSTALLATION */ a ešte tie, ktoré sa pridajú pouívaním:
+		'geoip_redirecter_version'
+		'geoip_redirecter_country_code'
+		'geoip_redirecter_redirect_url'
+		'geoip_redirecter_timeout'
+		'geoip_redirecter_notif'
+		(zatia¾, ak nepridám aj ïalšie..)
